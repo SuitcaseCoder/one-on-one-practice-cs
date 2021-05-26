@@ -103,7 +103,32 @@ let sports = [
 
 ]
 
-// write a function that returns an array all the prices
+// write a function that returns an array with all the prices
+
+// 0. create a function and name it "returnAllPrices" (make sure to add
+// a parameter for the array you will be passing in --> remember that a
+// parameter is nothing but a placeholder name for the value to be
+// passed in -- this will make sense on step 7.)
+// 1. create an empty array and save it to a variable, so that you can
+// push (add) your prices of each object ot it and then return just
+// that
+// 2. loop through array
+// 3. print out what we're working with within the loop
+// 4. get the value of the price of the object we're currently on
+// (remember we'd be dealing with array[i] --> since we're looping
+// through and starting at i = 0 (index == 0) which means array[i] ==
+// array[index we're currently on] ... if we're using a for loop
+// 5. push that value to our empty array --> this will add the current
+// price we're on, to our array (that's living outside of our for loop)
+// and now our array is basically collecting the prices as we loop
+// through all the objects
+// 6. once the loop is completed, return that new array
+// 7. execute your function and pass in the array as an argument --
+// remember that the array is coming for the array's actual name.
+
+
+// Now do it again using forEach method ...
+
 
 
 
